@@ -1,6 +1,6 @@
 This project is a full-stack application that allows users to search for job offers using a search bar with fuzzy search and autocomplete functionality. The backend is built with Spring Boot, which connects to an Elasticsearch service and a PostgreSQL database. The frontend is developed using Angular.
 
-## Prerequisites
+# Prerequisites
 Before you begin, ensure you have the following installed:
 
 Java 17
@@ -11,14 +11,14 @@ Angular CLI
 
 ## Getting the project up and running
 
-# Step 1: ElasticSearch configuration
+## Step 1: ElasticSearch configuration
 
 Download ElasticSearch for free from the [official website](https://www.elastic.co/fr/downloads/past-releases/elasticsearch-7-10-0).
 Start ElasticSearch by running the following command in a terminal :
 ```./bin/elasticsearch```
 Elasticsearch should now be running on http://localhost:9200.
 
-# Step 2: Set up a database with a table and insert your data
+## Step 2: Set up a database with a table and insert your data
 Create your database using PostGreSQL.
 ```CREATE DATABASE job_offers;```
 
@@ -40,7 +40,7 @@ Create a table in the database.
 ```
 After setting up the table, you can insert your data!
 
-# Step 3: running the backend Spring Boot application
+## Step 3: running the backend Spring Boot application
 Navigate to the backend directory at ```./elasticsearchengine``` in a terminal.
 
 Set your PostgreSQL and Elasticsearch configurations:
@@ -57,7 +57,7 @@ You can then build and run the backend :
 mvn spring-boot:run
 ```
 
-# Step 4: running the frontend Angular application
+## Step 4: running the frontend Angular application
 Navigate to the frontend directory at ```./elasticfront``` in a new terminal.
 
 Install the dependencies :
@@ -68,14 +68,15 @@ Run the frontend :
 
 ```ng serve```
 
-# Step 5: access the application 
+## Step 5: access the application 
 Open your browser and navigate to http://localhost:4200. You can use the search bar to search for job offers. The search functionality supports fuzzy search and autocomplete.
 
-# Debugging
+## Debugging
 
 - Elasticsearch logs are available in the Elasticsearch installation directory.
 - Spring Boot logs can be viewed in the terminal where the application is running.
 - Angular logs can be viewed in the browser's developer console or terminal.
+
 
 
 This project is a good starting point, but don’t hesitate to customize it to fit your needs. Whether you want to add new features, tweak the design, or improve the functionality, go ahead and make it your own :)
