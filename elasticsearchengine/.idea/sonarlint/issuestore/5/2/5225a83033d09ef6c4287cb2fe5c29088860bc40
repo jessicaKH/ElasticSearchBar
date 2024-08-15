@@ -1,0 +1,11 @@
+
+X
+java:S1874";Remove this use of "RestHighLevelClient"; it is deprecated.(İ€áä8İ—ÊÅ”2
+;
+java:S1128"Remove this duplicated import.(†ˆä‚8¥ßÅ”2
+:
+java:S1128"Remove this duplicated import.(‘ş¹j8¦ßÅ”2
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8òİßÅ”2
+Z
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8òİßÅ”2

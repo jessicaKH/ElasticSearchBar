@@ -1,0 +1,15 @@
+
+X
+java:S1874";Remove this use of "RestHighLevelClient"; it is deprecated.(›Ä·‰8‚“¥≈î2
+X	java:S125'"<This block of commented-out lines of code should be removed.(≈í·˙8‰“¥≈î2
+O
+java:S61263"2Replace this String concatenation with Text block.(ìºéä8—Ë¥≈î2
+O
+java:S6126J"2Replace this String concatenation with Text block.(≤≤ÿ≥8—Ë¥≈î2
+L	java:S106_"+Replace this use of System.out by a logger.(úˆãŒ˝ˇˇˇˇ8Í“¥≈î2
+j
+java:S1128"MRemove this unused import 'org.elasticsearch.client.indices.GetIndexRequest'.(ÈŒΩ·8’Ë¥≈î2
+k
+java:S1128"NRemove this unused import 'org.elasticsearch.client.indices.GetIndexResponse'.(ö¬µÍ8’Ë¥≈î2
+e
+java:S1128	"HRemove this unused import 'org.elasticsearch.action.index.IndexRequest'.(âÒπ§8◊Ë¥≈î2

@@ -1,0 +1,11 @@
+
+X
+java:S1874";Remove this use of "RestHighLevelClient"; it is deprecated.(İ€áä8²ëÎÄ”2
+L	java:S106"+Replace this use of System.out by a logger.(Œà’Òûÿÿÿÿ8²ëÎÄ”2
+G	java:S106/"+Replace this use of System.out by a logger.(í¯îö8ËëÎÄ”2
+O
+java:S1172<"-Remove this unused method parameter "source".(’ú¿úÿÿÿÿ8ÓëÎÄ”2
+j
+java:S1128"MRemove this unused import 'org.elasticsearch.client.indices.GetIndexRequest'.(éÎ½á8ÓëÎÄ”2
+k
+java:S1128"NRemove this unused import 'org.elasticsearch.client.indices.GetIndexResponse'.(šÂµê8ÓëÎÄ”2

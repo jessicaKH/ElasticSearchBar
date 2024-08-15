@@ -1,0 +1,18 @@
+
+X
+java:S1874";Remove this use of "RestHighLevelClient"; it is deprecated.(İ€áä8‘·ĞÄ”2
+X	java:S125"<This block of commented-out lines of code should be removed.(®ñíƒ8´ÁÛÄ”2
+n
+java:S1128"QRemove this unused import 'co.elastic.clients.elasticsearch.ElasticsearchClient'.(À×©é8µÁÛÄ”2
+q
+java:S1128"ORemove this unused import 'co.elastic.clients.elasticsearch.core.IndexRequest'.(¡®»úÿÿÿÿ8µÁÛÄ”2
+`
+java:S1128">Remove this unused import 'com.elasticsearch.models.JobOffer'.(…¿ì”şÿÿÿÿ8µÁÛÄ”2
+^
+java:S1128"ARemove this unused import 'com.elasticsearch.models.JobOfferJPA'.(¦Îğ8µÁÛÄ”2
+n
+java:S1128"LRemove this unused import 'com.elasticsearch.repository.JobOfferRepository'.(ĞÖ×½ıÿÿÿÿ8µÁÛÄ”2
+R
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8µÁÛÄ”2
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8¶ÁÛÄ”2

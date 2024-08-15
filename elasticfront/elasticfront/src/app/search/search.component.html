@@ -1,0 +1,21 @@
+<div>
+    <h2>Search for accommodation</h2>
+    <input 
+      type="text" 
+      [(ngModel)]="query" 
+      (input)="search()" 
+      placeholder="Search holiday accommodation..."
+    />
+    <div *ngIf="isLoading">Loading...</div>
+    <ul *ngIf="results.length">
+      <li *ngFor="let result of results">
+        <strong>{{ result._source.title }}</strong>
+        <p>{{ result._source.description }}</p>
+        <p><em>{{ result._source.city }}, {{ result._source.region }}</em></p>
+      </li>
+    </ul>
+    <div *ngIf="!results.length && !isLoading">
+      <p>No results found</p>
+    </div>
+  </div>
+  
