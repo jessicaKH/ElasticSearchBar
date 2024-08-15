@@ -5,11 +5,12 @@ This project is a full-stack application that allows users to search for job off
 ## Prerequisites
 Before you begin, ensure you have the following installed:
 
-Java 17
-Node.js & npm
-PostgreSQL
-Elasticsearch 7.10+
-Angular CLI
+- Java 17
+- Node.js & npm
+- PostgreSQL
+- Elasticsearch 7.10+
+- Angular CLI
+- Your favorite IDE
 
 ## Getting the project up and running
 
