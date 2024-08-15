@@ -1,6 +1,8 @@
+# ElasticSearchBar project
+
 This project is a full-stack application that allows users to search for job offers using a search bar with fuzzy search and autocomplete functionality. The backend is built with Spring Boot, which connects to an Elasticsearch service and a PostgreSQL database. The frontend is developed using Angular.
 
-# Prerequisites
+## Prerequisites
 Before you begin, ensure you have the following installed:
 
 Java 17
